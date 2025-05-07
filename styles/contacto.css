@@ -1,0 +1,38 @@
+
+
+
+body{
+    background-color: rgb(231, 231, 231);
+    font-family: sans-serif;
+}
+img{
+    width: 50%;
+}
+li{
+    list-style: none;    
+}
+/* Seccion de header */
+.navegacion{
+    background-color: #D9D9D9;
+}
+.navegacion_logo{
+    background-color: #AEABAB;
+}
+.navegacion_menu ul li a{
+    color: black;
+    text-decoration: none;
+}
+/* ---Termina seccion de header */
+
+/* Seccion de Footer */
+.footer{
+    background-color: #D9D9D9;
+}
+.footer p{
+    font-weight: 100;
+}
+.footer_navegacion_menu ul li a{
+    color: black;
+    text-decoration: none;
+}
+/* ---Termina seccion de Footer */
