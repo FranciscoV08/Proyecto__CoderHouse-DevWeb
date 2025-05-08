@@ -1,28 +1,30 @@
-*{
+/* FORMATEO DEL CSS */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     background-color: white;
 }
-
 li {
     list-style: none;
 }
 
-/* Fuentes de letras */
 
-    /* ----Variables---- */
-:root{
+/* Fuentes de letras */
+/* ----Variables---- */
+:root {
     --fuente-principal: #6E5848;
     --color-hover: #D6CEC3;
 
     --header-bg-color: #FAF9F6;
 }
 
-
+/* Cambios a los hover predeterminados de boostrap */
+.nav-link:hover{
+    color: var(--color-hover);
+}
 
 /* -------Fuentes Reutilizables-------  */
 
@@ -31,8 +33,9 @@ li {
     font-optical-sizing: auto;
     font-style: normal;
 }
+
 /* --------Fuente de los link--------- */
-.f--secundaria{
+.f--secundaria {
     font-family: "Lato", sans-serif;
     font-style: normal;
 }
@@ -41,62 +44,56 @@ li {
 
 
 /*<----------- Seccion de header --------> */
-header{
+header {
     background-color: var(--header-bg-color);
 }
-.logo{
+
+.logo {
     font-weight: 900;
     color: var(--fuente-principal);
     padding: 1rem 0;
     text-align: center;
 }
-.nav__a li a{
+
+.nav__a li a {
     text-decoration: none;
     color: var(--fuente-principal);
     font-weight: 700;
 }
+
 /* ---Termina seccion de header */
 
 
 
 /* Seccion de main */
 
-.principal__titulo{
+.principal__titulo {
     margin: 1rem 0;
     text-align: center;
 }
-.principal__titulo span{
+
+.principal__titulo span {
     font-weight: 900;
     color: var(--fuente-principal);
 }
-.principal__p{
+
+.principal__p {
     font-weight: 200;
     color: var(--fuente-principal);
     text-align: center;
 }
 
 
-.destacados{
+.destacados {
     background-color: #D6CEC3;
 }
 
-
-
-
 /* ---Termina seccion de main */
+
 
 /* Seccion de Footer */
 .footer {
     background-color: #FAF9F6;
-}
-
-.footer p {
-    font-weight: 100;
-}
-
-.footer_navegacion_menu ul li a {
-    color: black;
-    text-decoration: none;
 }
 
 /* ---Termina seccion de Footer */
