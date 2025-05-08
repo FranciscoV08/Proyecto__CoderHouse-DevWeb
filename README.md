@@ -19,3 +19,10 @@ Cloná este repositorio o descargá el archivo ZIP:
 
 ```bash
 git clone https://github.com/FranciscoV08/Proyecto__CoderHouse-DevWeb.git
+
+```
+Luego abrí el archivo index.html en tu navegador.
+
+## 🖼️ Captura de pantalla
+
+![Vista previa del sitio](./muestra.png.png)
