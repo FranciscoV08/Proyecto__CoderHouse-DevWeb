@@ -25,4 +25,4 @@ Luego abrí el archivo index.html en tu navegador.
 
 ## 🖼️ Captura de pantalla
 
-![Vista previa del sitio](muestra.png.png)
+[![My-app-desing.png](https://i.postimg.cc/tg7SDNpX/My-app-desing-2.png)](https://postimg.cc/HJD9k5rK)
