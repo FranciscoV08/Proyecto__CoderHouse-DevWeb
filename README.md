@@ -25,4 +25,4 @@ Luego abrí el archivo index.html en tu navegador.
 
 ## 🖼️ Captura de pantalla
 
-![Vista previa del sitio](./muestra.png.png)
+![Vista previa del sitio](muestra.png.png)
