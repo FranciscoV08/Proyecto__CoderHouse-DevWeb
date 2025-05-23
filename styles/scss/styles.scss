@@ -1,0 +1,91 @@
+// Variables
+$fuente-principal: #6e5848;
+$color-hover: #D6CEC3;
+$header-bg-color: #FAF9F6;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -------Fuentes Reutilizables-------  */
+
+.f--principal {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* --------Fuente de los link--------- */
+.f--secundaria {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+}
+
+// Cambios a los hover de boostrap
+.nav-link:hover {
+    color: $color-hover;
+}
+
+// Cambios al cuerpo de la pagina
+body {
+    background-color: white;
+
+    li {
+        list-style: none;
+    }
+}
+
+
+/*<----------- Seccion de header --------> */
+header {
+    background-color: $header-bg-color;
+
+    .logo {
+        font-weight: 900;
+        color: $fuente-principal;
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    .nav__a li a {
+        text-decoration: none;
+        color: $fuente-principal;
+        font-weight: 700;
+    }
+}
+
+/* Seccion de main */
+
+.principal__titulo {
+    margin: 1rem 0;
+    text-align: center;
+
+    span {
+        font-weight: 900;
+        color: $fuente-principal;
+    }
+
+    .principal__p {
+        font-weight: 200;
+        color: $fuente-principal;
+        text-align: center;
+    }
+
+}
+
+/* ---Termina seccion de header */
+
+/* Seccion de Footer */
+.footer {
+    background-color: #FAF9F6;
+
+    .nav__a li a {
+        text-decoration: none;
+        color: $fuente-principal;
+        font-weight: 700;
+    }
+}
+
+/* ---Termina seccion de Footer */
